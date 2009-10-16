@@ -1,0 +1,22 @@
+diff -urwa codeina-0.10.6/configure codeina-0.10.6.new/configure
+--- codeina-0.10.6/configure	2009-08-26 17:56:23.000000000 +0200
++++ codeina-0.10.6.new/configure	2009-10-16 05:57:59.073527221 +0200
+@@ -2734,7 +2734,7 @@
+ 
+ 
+ 
+-  pythondir=$PYTHON_PREFIX"/lib/python"$PYTHON_VERSION/site-packages
++  pythondir="${libdir}/python"$PYTHON_VERSION/site-packages
+ 
+ 
+ 
+@@ -2742,7 +2742,7 @@
+ 
+ 
+ 
+-  pyexecdir=$PYTHON_EXEC_PREFIX"/lib/python"$PYTHON_VERSION/site-packages
++  pyexecdir="${libdir}/python"$PYTHON_VERSION/site-packages
+ 
+ 
+ 
+Only in codeina-0.10.6.new/: configure~

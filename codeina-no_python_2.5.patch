@@ -1,0 +1,10 @@
+diff -urwa codeina-0.10.6/bin/codeina.bin codeina-0.10.6.new/bin/codeina.bin
+--- codeina-0.10.6/bin/codeina.bin	2009-08-26 17:43:04.000000000 +0200
++++ codeina-0.10.6.new/bin/codeina.bin	2009-10-15 18:59:04.174154336 +0200
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python2.5
++#!/usr/bin/env python
+ # -*- Mode: Python -*-
+ # -*- coding: utf-8 -*-
+ # vi:si:et:sw=4:sts=4:ts=4
+Only in codeina-0.10.6.new/bin: codeina.bin~
